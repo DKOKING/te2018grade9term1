@@ -11,32 +11,40 @@ console.log(sum);
 // **** Problem 2 ****
 // Store the difference between sum (above) and 7 in a variable.
 // Print the difference.
+let subtract = sum - 7;
+console.log(subtract);
 
 
 // **** Problem 3 ****
 // Store the product of difference and 3 in a variable.
 // Print the product.
-
+let multiply = subtract * 3;
+console.log(multiply);
 
 // **** Problem 4 ****
 // Store the power of the product raised to an exponent of 2 in a variable.
 // Print the power.
-
+let power = multiply**2;
+console.log(power);
 
 // **** Problem 5 ****
 // Store the quotient of the power divided by 4 in a variable.
 // Print the quotient.
-
+let divide = power/4;
+console.log(divide);
 
 // **** Problem 6 ****
 // Store the remainder of the quotient divided by 2 in a variable.
 // Print the remainder.
-
+let remain = divide%2;
+console.log(remain);
 
 // **** Problem 7 ****
 // Print a boolean value (true/false) representing if the quotient from
 // problem 5 is even or odd. If the quotient is even, print true. If the
 // quotient is odd, print false.
+let isProblem5Even = true;
+console.log(isProblem5Even);
 //
 // Hint: You can tell if a value is even or odd if it is divisible by 2;
 // in other words, if there is no remainder after dividing the value by
